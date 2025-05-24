@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5em auto;
+  max-width: 450px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: Inter, sans-serif;
+  margin-top: 0px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+header p {
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+input#input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-family: DM Mono, Inter, sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+}
+
+p#result {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+p.record {
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.01);
+  border-radius: 12px;
+  padding: 12px;
+  margin: 0px;
+  overflow-wrap: anywhere;
+}
+
+p.record .title {
+  font-weight: 500;
+  font-family: Inter, sans-serif;
+  display: block;
+  margin-bottom: 5px;
+}
+
+p.record .contents {
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.record span.ttl {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+  font-family: Inter, sans-serif;
+  opacity: 0.8;
+}
+
+p.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+}
+
+p.footer a {
+  color: #1d9bf0;
+}
+
+#amount {
+  font-family: Inter, sans-serif;
+  text-align: left;
+}
